@@ -6,13 +6,9 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
-@Setter
-@Getter
-public class Usuarios {
+public class Usuario {
     @Id
     private Long cpf;
 
