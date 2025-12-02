@@ -22,7 +22,7 @@ public class SecurityConfig {
     }
 
     @Bean
-    PasswordEncoder passwordEncoder() {
+    PasswordEncoder passwordEncoder() throws Exception {
         return new BCryptPasswordEncoder();
     }
 
